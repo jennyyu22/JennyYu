@@ -15,7 +15,7 @@ border-width: 5px;
 border-style:groove;
 }
 
-.text-end{
+#text-end{
 color: burlywood;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-weight: 900;
@@ -23,4 +23,11 @@ border: darkblue;
 border-width: thick;
 border-width: 2px;
 border-style: dotted;
+}
+
+
+
+.div2 {
+    font-style: underline;
+    font-weight: 200;
 }
