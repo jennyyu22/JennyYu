@@ -1,79 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STEP 1: Change the title tag to be Your Name -->
     <title>Jenny Yu</title>
-</head>
-<body>
+    <link rel="stylesheet" href="s3master.css">
 
-    <h2>Welcome to my Food Feedback Form!</h2>
+    <!-- STEP 2: INSERT THE BOOTSTRAP 4.6 links here or the Bootstrap 5 CSS link here in the head and the 
+         JavaScript Bundle link right before the closing body tag like it says here 
+         https://getbootstrap.com/docs/5.1/getting-started/introduction/ -->
 
-    <h3>Note: Please fill out all the questions below.</h3>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <nav >
+    <!--STEP 3:  ADD A DARK NAVBAR HERE WITH YOUR NAME IN THE TOP LEFT.  
+        Also, create a link in the navbar TO the HTML file that you made in the HTML assessment -->
+       
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Jenny Yu</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="s2htmlfinalassessment.html">My HTML Project!</a>
+                  </li>
+                
 
-    <p>This form will be about the following subjects/classes. </p>
+        
+            </div>
+     </nav>
+  
+    </nav>
 
-    <ol>
-        <li>English</li>
-        <ul>CP English 4</ul>
-        <ul>AP Literature</ul>
-        <ul>HP English</ul>
+    <div>
+      <!-- Add a class with custom styling to this div -->
+        <div class= "div1">
+        
+        <p id= "div1"> This is in Div 1.</p>
+        <p class="text-center">I like plants.</p>
 
-        <li>History</li>
-        <ul>World History</ul>
-        <ul>AP US History</ul>
-        <ul>US History</ul>
-    </ol>
 
-    <img src="school.jpg" alt="" width="300" height="200">
-    <br>
-    <a href="https://oaklandtech.com/staff/">Information about the School!</a>
+    </div>
 
-    <form>
-        <h3>Student Information</h3>
-        <label for="email">Student Email:</label>
-        <input type="email" name="" id="">
-        <br>
-        <label for="password">Student Password:</label>
-        <input type="password" name="" id="">
 
-        <p>Which one of these classes are your favorite?</p>
-    <label for="CP English 4">CP English 4</label>
-    <input type="radio" name="CP English 4" id="">
+      <!-- Add the same class as before to apply the same styling to this div.
+           ALSO add an id to this div to apply something unique. -->
+        <div class= "div1">
+        <p id= "div1">This is also in Div 1.</p>
 
-    <label for="AP Literature">AP Literature</label>
-    <input type="radio" name="AP Literature" id="">
+        <p class="text-end">My favorite color is green.</p>
+    </div>
 
-    <label for="HP English">HP English </label>
-    <input type="radio" name="HP English" id=""> 
+    <!-- STEP 4: CREATE A PHOTO CAROUSEL HERE -->
 
-    <label for="World History">World History</label>
-    <input type="radio" name="World History" id="">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1614107696198-e5b2273fd3c3?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1621849400072-f554417f7051?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1588894051921-5e60abf4eab9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-    <label for="AP US History">AP US History</label>
-    <input type="radio" name="AP US History" id="">
+    <!-- STEP 5: ADD Bootstrap styling to the table below so it has striped rows 
+         and a header row and add at least three more rows. Feel free to change the text.-->
 
-    <label for="US History">US History</label>
-    <input type="radio" name="US History" id="">
+    <!-- On tables -->
 
-    <p>Which class has the most homework?</p>
-    <select name="homework?" id="">
-    <option value="CP English 4">CP English 4</option>
-    <option value="AP Literature">AP Literature</option>
-    <option value="HP English">HP English</option>
-    <option value="World History">World History</option>
-    <option value="AP US History">AP US History</option>
-    <option value="US History">US History</option>
-    </select>
-<br>
-<p>Any comments, questions, concerns?</p>
 
-<textarea name="comments" id="8" cols="30" rows="10"></textarea>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">A Person's Name</th>
+            <th scope="col">Their Fav Animal that starts with the first letter of their first name</th>
+            <th scope="col"># of toes that animal has</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">Bob</td>
+            <td>Bee</td>
+            <td>6</td>
+         </tr>
+          <tr>
+            <td scope="row">Jill</td>
+            <td>Jaguar</td>
+            <td>4</td>
+        
+          </tr>
+          <tr>
+            <td scope="row">Pam</td>
+            <td>Parrot</td>
+            <td>4</td>
+            
+          </tr>
+        </tbody>
+      </table>
 
-<br>
-<input type="submit" value="Submit">
-
-    </form>
-</body>
+  </body>
 </html>
