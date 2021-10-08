@@ -1,33 +1,17 @@
-#div1{
-color: blueviolet;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-weight: 200;
-font-style: italic;
-}
-
-.text-center{
-    color: blue;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    border: gold;
-border-width: thin;
-border-width: 5px;
-border-style:groove;
-}
-
-#text-end{
-color: burlywood;
+.divone{
+color: rgb(111, 138, 94);
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-weight: 900;
 border: darkblue;
-border-width: thick;
-border-width: 2px;
+border-width: 7px;
+border-width: 0;
 border-style: dotted;
 }
 
 
 
-.div2 {
-    font-style: underline;
-    font-weight: 200;
+.text-end{
+font-size: 10px;
 }
+
+
