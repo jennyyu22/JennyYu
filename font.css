@@ -1,0 +1,17 @@
+.text-center{
+color:darkkhaki;
+font-family:'Courier New', Courier, monospace
+text-align: center;
+    }
+
+.paragraph{
+    color: darkslategrey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.results{
+    color:grey;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
